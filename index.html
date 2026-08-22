@@ -7,7 +7,7 @@
       name="description"
       content="Projekt posvećen srpskoj kulturi, pismu i istoriji u Crnoj Gori."
     />
-    <title>Srpska baština u Crnoj Gori</title>
+    <title>Српско наслеђе Црне Горе - Дигитална ризница</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -96,29 +96,22 @@
   <body class="bg-cream font-sans text-charcoal antialiased">
     <header class="sticky top-0 z-50 border-b border-slate-200 bg-cream/90 backdrop-blur-md">
       <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#početna" class="flex items-center gap-3" aria-label="Početna strana">
+        <a href="#početna" class="flex items-center gap-3" aria-label="Почетна страница">
           <div class="flex h-11 w-11 items-center justify-center rounded-full border border-gold/60 bg-slate-900 text-lg font-serif text-cream shadow-soft">
-            S
+            С
           </div>
           <div>
-            <div class="text-lg font-semibold tracking-[0.12em] text-navy" data-text-latin="SRPSKA" data-text-cyrillic="СРПСКА">SRPSKA</div>
-            <div class="text-xs uppercase tracking-[0.28em] text-slate-500" data-text-latin="Baština" data-text-cyrillic="Баштина">Baština</div>
+            <div class="text-lg font-semibold tracking-[0.12em] text-navy" data-text-latin="Srpsko nasleđe Crne Gore" data-text-cyrillic="Српско наслеђе Црне Горе">Српско наслеђе Црне Горе</div>
+            <div class="text-xs uppercase tracking-[0.28em] text-slate-500" data-text-latin="Digitalna riznica" data-text-cyrillic="Дигитална ризница">Дигитална ризница</div>
           </div>
         </a>
 
         <div class="hidden items-center gap-8 md:flex">
-          <a href="#početna" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Početna" data-text-cyrillic="Почетна">Početna</a>
-          <a href="#o-projektu" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="O projektu" data-text-cyrillic="О пројекту">O projektu</a>
-          <a href="#kultura-pismo" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Kultura &amp; Pismo" data-text-cyrillic="Култура &amp; Писмо">Kultura &amp; Pismo</a>
-          <a href="#istorija" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Istorija" data-text-cyrillic="Историја">Istorija</a>
-          <a href="#kontakt" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Kontakt" data-text-cyrillic="Контакт">Kontakt</a>
-        </div>
-
-        <div class="hidden items-center gap-3 md:flex">
-          <div class="flex items-center rounded-full border border-slate-200 bg-white p-1 shadow-sm">
-            <button type="button" class="script-toggle rounded-full bg-navy px-3 py-1.5 text-xs font-medium text-white" data-script="cyr">Ћирилица</button>
-            <button type="button" class="script-toggle rounded-full px-3 py-1.5 text-xs font-medium text-slate-600" data-script="lat">Latinica</button>
-          </div>
+          <a href="#početna" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Početna &amp; O projektu" data-text-cyrillic="Почетна &amp; О пројекту">Почетна &amp; О пројекту</a>
+          <a href="#o-projektu" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Kultura" data-text-cyrillic="Култура">Култура</a>
+          <a href="#kultura-pismo" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Jezik &amp; Pismo" data-text-cyrillic="Језик &amp; Писмо">Језик &amp; Писмо</a>
+          <a href="#istorija" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Istorija" data-text-cyrillic="Историја">Историја</a>
+          <a href="#kulturna-baština" class="text-sm font-medium text-slate-700 transition hover:text-burgundy" data-text-latin="Galerija" data-text-cyrillic="Галерија">Галерија</a>
         </div>
 
         <button
@@ -135,15 +128,11 @@
 
       <div id="mobileMenu" class="hidden border-t border-slate-200 bg-white md:hidden">
         <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-5 text-sm font-medium text-slate-700">
-          <a href="#početna" class="hover:text-burgundy" data-text-latin="Početna" data-text-cyrillic="Почетна">Početna</a>
-          <a href="#o-projektu" class="hover:text-burgundy" data-text-latin="O projektu" data-text-cyrillic="О пројекту">O projektu</a>
-          <a href="#kultura-pismo" class="hover:text-burgundy" data-text-latin="Kultura &amp; Pismo" data-text-cyrillic="Култура &amp; Писмо">Kultura &amp; Pismo</a>
-          <a href="#istorija" class="hover:text-burgundy" data-text-latin="Istorija" data-text-cyrillic="Историја">Istorija</a>
-          <a href="#kontakt" class="hover:text-burgundy" data-text-latin="Kontakt" data-text-cyrillic="Контакт">Kontakt</a>
-          <div class="mt-2 flex items-center gap-2">
-            <button type="button" class="script-toggle rounded-full bg-navy px-3 py-2 text-xs font-medium text-white" data-script="cyr">Ћирилица</button>
-            <button type="button" class="script-toggle rounded-full border border-slate-200 px-3 py-2 text-xs font-medium text-slate-700" data-script="lat">Latinica</button>
-          </div>
+          <a href="#početna" class="hover:text-burgundy" data-text-latin="Početna &amp; O projektu" data-text-cyrillic="Почетна &amp; О пројекту">Почетна &amp; О пројекту</a>
+          <a href="#o-projektu" class="hover:text-burgundy" data-text-latin="Kultura" data-text-cyrillic="Култура">Култура</a>
+          <a href="#kultura-pismo" class="hover:text-burgundy" data-text-latin="Jezik &amp; Pismo" data-text-cyrillic="Језик &amp; Писмо">Језик &amp; Писмо</a>
+          <a href="#istorija" class="hover:text-burgundy" data-text-latin="Istorija" data-text-cyrillic="Историја">Историја</a>
+          <a href="#kulturna-baština" class="hover:text-burgundy" data-text-latin="Galerija" data-text-cyrillic="Галерија">Галерија</a>
         </div>
       </div>
     </header>
@@ -153,14 +142,15 @@
         <div class="absolute inset-0 bg-gradient-to-r from-navy/80 via-navy/50 to-transparent"></div>
         <div class="relative mx-auto max-w-7xl px-4 pb-20 pt-24 sm:px-6 lg:px-8 lg:pb-28 lg:pt-28">
           <div class="max-w-2xl">
-            <p class="mb-5 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-cream backdrop-blur-sm" data-text-latin="Nikšić · Crna Gora" data-text-cyrillic="Никшић · Црна Гора">
-              Nikšić · Crna Gora
+            <p class="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-gold/90">Почетна &amp; О пројекту</p>
+            <p class="mb-5 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-cream backdrop-blur-sm" data-text-latin="Bijelo Polje · Crna Gora" data-text-cyrillic="Бијело Поље · Црна Гора">
+              Бијело Поље · Црна Гора
             </p>
             <h1 class="font-serif text-4xl leading-tight text-white sm:text-5xl lg:text-6xl" data-text-latin="Čuvari tradicije, jezika i istorije" data-text-cyrillic="Чувари традиције, језика и историје">
-              Čuvari tradicije, jezika i istorije
+              Чувари традиције, језика и историје
             </h1>
-            <p class="mt-6 max-w-xl text-base leading-7 text-slate-200 sm:text-lg" data-text-latin="Projekt koji neguje srpsku kulturnu baštinu, duhovnost i pismenost kroz priču o prošlosti koja i dalje živi u svakodnevnom životu ovog kraja." data-text-cyrillic="Пројекат који негује српску културну баштину, духовност и писменост кроз причу о прошлости која и даље живи у свакодневном животу овог краја.">
-              Projekt koji neguje srpsku kulturnu baštinu, duhovnost i pismenost kroz priču o prošlosti koja i dalje živi u svakodnevnom životu ovog kraja.
+            <p class="mt-6 max-w-xl text-base leading-7 text-slate-200 sm:text-lg" data-text-latin="Projekt koji neguje srpsku kulturnu baštinu, duhovnost i pismenost kroz priču o prošlosti koja i dalje živi u svakodnevnom životu ovog kraja." data-text-cyrillic="Пројекат који његује српску културну баштину, духовност и писменост кроз причу о прошлости која и даље живи у свакодневном животу овог краја.">
+              Пројекат који његује српску културну баштину, духовност и писменост кроз причу о прошлости која и даље живи у свакодневном животу овог краја.
             </p>
             <div class="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
@@ -168,14 +158,14 @@
                 class="inline-flex items-center justify-center rounded-full bg-gold px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-gold/30 transition hover:translate-y-[-1px] hover:bg-amber-500"
                 data-text-latin="Istraži kulturu" data-text-cyrillic="Истражи културу"
               >
-                Istraži kulturu
+                Истражи културу
               </a>
               <a
-                href="#kontakt"
+                href="#kulturna-baština"
                 class="inline-flex items-center justify-center rounded-full border border-white/35 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-                data-text-latin="Kontaktiraj nas" data-text-cyrillic="Контактирај нас"
+                data-text-latin="Galerija" data-text-cyrillic="Галерија"
               >
-                Kontaktiraj nas
+                Галерија
               </a>
             </div>
           </div>
@@ -201,12 +191,11 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="grid items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
             <div>
-              <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-burgundy" data-text-latin="O projektu" data-text-cyrillic="О пројекту">O projektu</p>
-              <h2 class="section-title font-serif text-4xl text-navy sm:text-5xl" data-text-latin="Svesnost o kulturi i naslijeđu" data-text-cyrillic="Свест о култури и наслеђу">Svesnost o kulturi i naslijeđu</h2>
+              <h2 class="section-title font-serif text-4xl text-navy sm:text-5xl" data-text-latin="Svesnost o kulturi i naslijeđu" data-text-cyrillic="Свијест о култури и насљеђу">Свијест о култури и насљеђу</h2>
               <p class="mt-8 text-lg leading-8 text-slate-700" data-text-latin="Naš projekat ima za cilj da sačuva, objasni i predstavi bogatu srpsku kulturnu i istorijsku baštinu u Crnoj Gori. Kroz dokumentaciju, priče, znanja i vizuelni narativ, nastojimo da mladim generacijama približimo tradiciju, pismo i identitet koji su oblikovali ovaj kraj." data-text-cyrillic="Наш пројекат има за циљ да сачува, објасни и представи богату српску културну и историјску баштину у Црној Гори. Кроз документацију, приче, знања и визуелни наратив, настојимо да младим генерацијама приближимо традицију, писмо и идентитет који су обликовали овај крај.">
                 Naš projekat ima za cilj da sačuva, objasni i predstavi bogatu srpsku kulturnu i istorijsku baštinu u Crnoj Gori. Kroz dokumentaciju, priče, znanja i vizuelni narativ, nastojimo da mladim generacijama približimo tradiciju, pismo i identitet koji su oblikovali ovaj kraj.
               </p>
-              <p class="mt-6 text-lg leading-8 text-slate-700" data-text-latin="U fokusu su jezik, običaji, istorijski spomenici i mesta koja nose tragove dugog kontinuiteta. Svi sadržaji su osmišljeni da budu jednostavni, inspirativni i prikladni za široku publiku, sa poštovanjem prema autentičnosti i kulturnoj vrijednosti." data-text-cyrillic="У фокусу су језик, обичаји, историјски споменици и места која носе трагове дугог континуитета. Сви садржаји су осмишљени да буду једноставни, инспиративни и прикладни за широк у публику, са поштовањем према аутентичности и културној вредности.">
+              <p class="mt-6 text-lg leading-8 text-slate-700" data-text-latin="U fokusu su jezik, običaji, istorijski spomenici i mesta koja nose tragove dugog kontinuiteta. Svi sadržaji su osmišljeni da budu jednostavni, inspirativni i prikladni za široku publiku, sa poštovanjem prema autentičnosti i kulturnoj vrijednosti." data-text-cyrillic="У фокусу су језик, обичаји, историјски споменици и мјеста која носе трагове дугог континуитета. Сви садржаји су осмишљени да буду једноставни, инспиративни и прикладни за широку публику, са поштовањем према аутентичности и културној вриједности.">
                 U fokusu su jezik, običaji, istorijski spomenici i mesta koja nose tragove dugog kontinuiteta. Svi sadržaji su osmišljeni da budu jednostavni, inspirativni i prikladni za široku publiku, sa poštovanjem prema autentičnosti i kulturnoj vrijednosti.
               </p>
               <div class="mt-8 flex flex-wrap gap-4">
@@ -220,7 +209,7 @@
               <article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:border-gold/50">
                 <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-navy text-xl text-cream">✦</div>
                 <h3 class="font-serif text-2xl text-navy" data-text-latin="Kultura" data-text-cyrillic="Култура">Kultura</h3>
-                <p class="mt-3 text-sm leading-6 text-slate-600" data-text-latin="Tradicija, običaji, narodne igre, pjesme i rituali koji prate svakodnevni život." data-text-cyrillic="Традиција, обичаји, народне игре, песме и ритуали који прате свакодневни живот.">
+                <p class="mt-3 text-sm leading-6 text-slate-600" data-text-latin="Tradicija, običaji, narodne igre, pjesme i rituali koji prate svakodnevni život." data-text-cyrillic="Традиција, обичаји, народне игре, пјесме и ритуали који прате свакодневни живот.">
                   Tradicija, običaji, narodne igre, pjesme i rituali koji prate svakodnevni život.
                 </p>
               </article>
@@ -247,55 +236,114 @@
 
       <section id="kultura-pismo" class="bg-slate-900 py-24 text-cream">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="grid gap-12 lg:grid-cols-[0.82fr_1.18fr]">
-            <div>
-              <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="Kultura &amp; Pismo" data-text-cyrillic="Култура &amp; Писмо">Kultura &amp; Pismo</p>
-              <h2 class="section-title font-serif text-4xl text-white sm:text-5xl" data-text-latin="Pismo kao trag naslijeđa" data-text-cyrillic="Писмо као траг наслеђа">Pismo kao trag naslijeđa</h2>
-              <p class="mt-8 text-lg leading-8 text-slate-300" data-text-latin="Ćirilica je bila više od pisma – ona je bila nosilac obrazovanja, religijskog života i kulturnog pamćenja. U regionu Crne Gore, srpska tradicija pisanja, očuvanja govora i memorije sustavno je uticala na oblikovanje identiteta u svakom periodu." data-text-cyrillic="Ћирилица је била више од писма – она је била носилац образовања, религијског живота и културног памћења. У региону Црне Горе, српска традиција писања, очувања говора и меморије систематски је утицала на обликовање идентитета у сваком периоду.">
-                Ćirilica je bila više od pisma – ona je bila nosilac obrazovanja, religijskog života i kulturnog pamćenja. U regionu Crne Gore, srpska tradicija pisanja, očuvanja govora i memorije sustavno je uticala na oblikovanje identiteta u svakom periodu.
+          <div class="mb-14 text-center">
+            <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-gold">Језик &amp; Писмо</p>
+            <h2 class="font-serif text-4xl text-white sm:text-5xl">Мирослављево јеванђеље</h2>
+          </div>
+
+          <div class="mx-auto max-w-6xl rounded-[32px] border border-white/10 bg-white/5 p-6 shadow-soft sm:p-8 lg:p-10">
+            <div class="max-h-[620px] overflow-y-auto pr-2 text-lg leading-8 text-slate-200">
+              <p class="mb-6">
+                Мирослављево јеванђеље представља једно од најзначајнијих и најљепших дјела српске и јужнословенске средњовјековне писмености. Настало крајем XII вијека, око 1180. године, ово рукописно јеванђеље свједочи о високом степену културног, духовног и умјетничког развоја српских земаља у доба владавине великог жупана Стефана Немање. Наручилац рукописа био је његов брат, хумски кнез Мирослав, по коме је рукопис и добио име.
               </p>
-              <div class="mt-10 space-y-6">
-                <blockquote class="rounded-2xl border border-white/10 bg-white/5 p-6">
-                  <div class="quote-mark mb-2">“</div>
-                  <p class="text-lg italic leading-8 text-slate-200" data-text-latin="Pismo je živi most između prošlosti i sadašnjosti; bez njega se ne može pravilno razumjeti niti kultura, niti narod." data-text-cyrillic="Писмо је живи мост између прошлости и садашњости; без њега се не може правилно разумети нити култура, нити народ.">
-                    Pismo je živi most između prošlosti i sadašnjosti; bez njega se ne može pravilno razumjeti niti kultura, niti narod.
-                  </p>
-                  <footer class="mt-4 text-sm uppercase tracking-[0.2em] text-gold" data-text-latin="Narodna memorija" data-text-cyrillic="Народна меморија">Narodna memorija</footer>
-                </blockquote>
-              </div>
+
+              <h3 class="mb-3 font-serif text-3xl text-white">Историјски контекст настанка</h3>
+              <p class="mb-6">
+                Крај XII вијека обиљежен је учвршћивањем српске државности и интензивним развојем црквене организације. У том периоду српске земље налазиле су се на размеђи византијског и западног културног утицаја, што се јасно огледа и у умјетничком изразу Мирослављевог јеванђеља. Рукопис је највјероватније настао за потребе цркве Светог Петра и Павла у Бијелом Пољу, као литургијска књига намијењена богослужењу.
+              </p>
+              <p class="mb-6">
+                Текст је писан на старословенском језику, српске редакције, ћириличним писмом. Језик рукописа показује прелазне особине између старије глаголске традиције и развијене српске ћирилице, чиме Мирослављево јеванђеље представља драгоцјен извор за проучавање историје српског језика и писма.
+              </p>
+
+              <h3 class="mb-3 font-serif text-3xl text-white">Структура и садржај</h3>
+              <p class="mb-6">
+                Мирослављево јеванђеље садржи избор јеванђељских читања (апракос) распоређених према црквеној години. Рукопис има 181 лист пергамента великог формата, исписан у двије колоне, са брижљиво обликованим иницијалима и богатом декорацијом. Текст су писала најмање два писара, од којих је један у науци познат као дијак Григорије.
+              </p>
+              <p class="mb-6">
+                Посебну вриједност рукопису дају минијатуре, иницијали и орнаментика изведени у духу византијске умјетности, али са препознатљивим локалним обиљежјима. У илуминацији су заступљени геометријски и биљни мотиви, зооморфни детаљи, као и сложени преплети у црвеној, плавој, златној и зеленој боји. Свака страница одише складом између текста и ликовног израза, потврђујући да је ријеч о дјелу врхунских мајстора.
+              </p>
+
+              <h3 class="mb-3 font-serif text-3xl text-white">Умјетничка и културна вриједност</h3>
+              <p class="mb-6">
+                Мирослављево јеванђеље сматра се ремек-дјелом српске средњовјековне умјетности. Његова калиграфија одликује се јасноћом, правилношћу и естетском уравнотеженошћу слова. Орнаментика показује спој византијске традиције и западних романичких елемената, што свједочи о отворености тадашње српске културе према различитим умјетничким струјањима.
+              </p>
+              <p class="mb-6">
+                Осим умјетничке, рукопис има и изузетну симболичку вриједност. Он представља свједочанство о духовном идентитету српског народа и о снажној вези између државе и цркве у вријеме династије Немањића. Као један од најстаријих сачуваних ћириличних рукописа српске редакције, Мирослављево јеванђеље заузима централно мјесто у историји српске књижевности и писмености.
+              </p>
+
+              <h3 class="mb-3 font-serif text-3xl text-white">Судбина рукописа кроз вијекове</h3>
+              <p class="mb-6">
+                Током вјекова, Мирослављево јеванђеље пролазило је кроз бурну историју. Чувано је у манастиру Хиландару на Светој Гори, гдје је остало све до XIX вијека. Један лист рукописа доспио је у Русију и данас се чува у Националној библиотеци у Санкт Петербургу, док се остатак рукописа налази у Београду.
+              </p>
+              <p class="mb-6">
+                Године 2005. Мирослављево јеванђеље уписано је на УНЕСКО-ву листу „Памћење свијета“, чиме је међународно потврђена његова изузетна културна вриједност. Данас се рукопис чува у Народном музеју Србије, под посебним условима заштите, као једно од најдрагоцјенијих покретних културних добара Републике Србије.
+              </p>
+
+              <h3 class="mb-3 font-serif text-3xl text-white">Значај у савременом добу</h3>
+              <p>
+                У савременом културном и научном контексту, Мирослављево јеванђеље представља неисцрпан извор за проучавање средњовјековне палеографије, историје умјетности, теологије и језика. Његова факсимилна издања омогућила су стручној и широј јавности да се упозна са овим ремек-дјелом без угрожавања оригинала.
+              </p>
+              <p class="mt-4">
+                Поред научне вриједности, рукопис има и снажну идентитетску димензију. Он симболизује континуитет српске духовне и културне традиције, повезујући савремено друштво са његовим средњовјековним коријенима. Као спој ријечи и слике, вјере и умјетности, Мирослављево јеванђеље остаје трајни знак културног памћења и један од најузвишенијих израза српске средњовјековне цивилизације.
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-16">
+            <div class="mb-10 text-center">
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold">Галерија</p>
             </div>
 
-            <div class="grid gap-6">
-              <div class="rounded-3xl border border-white/10 bg-white/5 p-7">
-                <div class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-gold" data-text-latin="Historija pisma" data-text-cyrillic="Историја писма">Historija pisma</div>
-                <p class="text-lg leading-8 text-slate-200" data-text-latin="Srpsko pismo, zasnovano na ćiriličnom nasljeđu, prošlo je kroz razdoblja razvoja, prevođenja, štampanja i javnog obrazovanja. Ono je služilo kao sredstvo učenja, knjige su prenosile znanje, a crkvene i javne ustanove održavale su vezu sa tradicijom i duhovnim životom zajednice." data-text-cyrillic="Српско писмо, засновано на ћириличном наслеђу, прошло је кроз раздобља развоја, превођења, штампања и јавног образовања. Оно је служило као средство учења, књиге су преносиле знање, а црквене и јавне установе одржавале су везу са традицијом и духовним животом заједнице.">
-                  Srpsko pismo, zasnovano na ćiriličnom nasljeđu, prošlo je kroz razdoblja razvoja, prevođenja, štampanja i javnog obrazovanja. Ono je služilo kao sredstvo učenja, knjige su prenosile znanje, a crkvene i javne ustanove održavale su vezu sa tradicijom i duhovnim životom zajednice.
-                </p>
-              </div>
-
-              <div class="grid gap-6 md:grid-cols-2">
-                <div class="rounded-3xl border border-white/10 bg-[#1a2333] p-7">
-                  <div class="text-5xl font-serif text-gold">Ћ</div>
-                  <h3 class="mt-6 font-serif text-2xl text-white" data-text-latin="Obrazovanje" data-text-cyrillic="Образовање">Obrazovanje</h3>
-                  <p class="mt-3 text-sm leading-6 text-slate-300" data-text-latin="Škole, manastiri i književni centri bili su mjesta u kojima se pismo negovalo i prenosilo sa generacije na generaciju." data-text-cyrillic="Школе, манастири и књижевни центри били су места у којима се писмо неговало и преносило са генерације на генерацију.">
-                    Škole, manastiri i književni centri bili su mjesta u kojima se pismo negovalo i prenosilo sa generacije na generaciju.
-                  </p>
+            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              <figure class="group overflow-hidden rounded-[28px] border border-white/10 bg-slate-800 shadow-soft">
+                <div class="overflow-hidden">
+                  <img class="gallery-image h-80 w-full object-cover transition duration-500" src="./jezik_i_pismo/Miroslavs_Gospel.jpg" alt="Мирослављево јеванђеље" />
                 </div>
-                <div class="rounded-3xl border border-white/10 bg-[#1a2333] p-7">
-                  <div class="text-5xl font-serif text-gold">С</div>
-                  <h3 class="mt-6 font-serif text-2xl text-white" data-text-latin="Tradicija" data-text-cyrillic="Традиција">Tradicija</h3>
-                  <p class="mt-3 text-sm leading-6 text-slate-300" data-text-latin="Narodni običaji, usmena predanja i duhovni život odražavaju se u jeziku, simbolima i svakodnevnoj komunikaciji." data-text-cyrillic="Народни обичаји, усмена предања и духовни живот одражавају се у језику, симболима и свакодневној комуникацији.">
-                    Narodni običaji, usmena predanja i duhovni život odražavaju se u jeziku, simbolima i svakodnevnoj komunikaciji.
-                  </p>
-                </div>
-              </div>
+                <figcaption class="p-5">
+                  <div class="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Бијело Поље</div>
+                  <div class="mt-2 font-serif text-2xl text-white">Мирослављево јеванђеље</div>
+                </figcaption>
+              </figure>
 
-              <div class="rounded-3xl border border-white/10 bg-white/5 p-7">
-                <p class="text-sm font-semibold uppercase tracking-[0.25em] text-gold" data-text-latin="Danas" data-text-cyrillic="Данас">Danas</p>
-                <p class="mt-4 text-lg leading-8 text-slate-200" data-text-latin="Danas je potreba za očuvanjem jezika i kulturnog pamćenja još značajnija. Digitalni projekti, edukativni sadržaji i javni programi pomažu da baština ostane dostupna i razumljiva mladima, a da se istovremeno čuva njena autentičnost." data-text-cyrillic="Данас је потреба за очувањем језика и културног памћења још значајнија. Дигитални пројекти, едукативни садржаји и јавни програми помажу да баштина остане доступна и разумљива младима, а да се истовремено чува њена аутентичност.">
-                  Danas je potreba za očuvanjem jezika i kulturnog pamćenja još značajnija. Digitalni projekti, edukativni sadržaji i javni programi pomažu da baština ostane dostupna i razumljiva mladima, a da se istovremeno čuva njena autentičnost.
-                </p>
-              </div>
+              <figure class="group overflow-hidden rounded-[28px] border border-white/10 bg-slate-800 shadow-soft">
+                <div class="overflow-hidden">
+                  <img class="gallery-image h-80 w-full object-cover transition duration-500" src="./jezik_i_pismo/Miroslav's_Gospel_002.jpg" alt="Писарски рад и листови рукописа" />
+                </div>
+                <figcaption class="p-5">
+                  <div class="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Рукопис</div>
+                  <div class="mt-2 font-serif text-2xl text-white">Листови рукописа</div>
+                </figcaption>
+              </figure>
+
+              <figure class="group overflow-hidden rounded-[28px] border border-white/10 bg-slate-800 shadow-soft">
+                <div class="overflow-hidden">
+                  <img class="gallery-image h-80 w-full object-cover transition duration-500" src="./jezik_i_pismo/MIROSLAVLJEVO-JEVANDjELJE-oko-1180-1190-perfektttttT_slika_O_135997885.jpg" alt="Мирослављево јеванђеље, близак план" />
+                </div>
+                <figcaption class="p-5">
+                  <div class="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Период</div>
+                  <div class="mt-2 font-serif text-2xl text-white">Око 1180–1190</div>
+                </figcaption>
+              </figure>
+
+              <figure class="group overflow-hidden rounded-[28px] border border-white/10 bg-slate-800 shadow-soft">
+                <div class="overflow-hidden">
+                  <img class="gallery-image h-80 w-full object-cover transition duration-500" src="./jezik_i_pismo/Miroslavljevo-jevandjelje-1-1-1.jpg" alt="Детаљ рукописа" />
+                </div>
+                <figcaption class="p-5">
+                  <div class="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Детаљ</div>
+                  <div class="mt-2 font-serif text-2xl text-white">Рукописни мотив</div>
+                </figcaption>
+              </figure>
+
+              <figure class="group overflow-hidden rounded-[28px] border border-white/10 bg-slate-800 shadow-soft">
+                <div class="overflow-hidden">
+                  <img class="gallery-image h-80 w-full object-cover transition duration-500" src="./jezik_i_pismo/k.jpg" alt="Књига и минијатура" />
+                </div>
+                <figcaption class="p-5">
+                  <div class="text-xs font-semibold uppercase tracking-[0.2em] text-gold">Минијатура</div>
+                  <div class="mt-2 font-serif text-2xl text-white">Књига у боји</div>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </div>
@@ -325,25 +373,25 @@
 
             <div class="timeline-item relative pb-12">
               <div class="absolute -left-[2.1rem] top-2 h-4 w-4 rounded-full border-4 border-cream bg-gold shadow-lg shadow-gold/30"></div>
-              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="XIV vek" data-text-cyrillic="XIV век">XIV vek</p>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="XIV vijek" data-text-cyrillic="XIV вијек">XIV vijek</p>
               <h3 class="mt-2 font-serif text-3xl text-navy" data-text-latin="Manastirski centri" data-text-cyrillic="Манастирски центри">Manastirski centri</h3>
-              <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Manastiri postaju centri pismenosti, duhovnog života i očuvanja pisanog naslijeđa, čuvajući i čitajući knjige, predanja i zapisane običaje." data-text-cyrillic="Манастири постају центри писмености, духовног живота и очувања писаног наслеђа, чувајући и читајући књиге, предања и записане обичаје.">
+              <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Manastiri postaju centri pismenosti, duhovnog života i očuvanja pisanog naslijeđa, čuvajući i čitajući knjige, predanja i zapisane običaje." data-text-cyrillic="Манастири постају центри писмености, духовног живота и очувања писаног наслијеђа, чувајући и читајући књиге, предања и записане обичаје.">
                 Manastiri postaju centri pismenosti, duhovnog života i očuvanja pisanog naslijeđa, čuvajući i čitajući knjige, predanja i zapisane običaje.
               </p>
             </div>
 
             <div class="timeline-item relative pb-12">
               <div class="absolute -left-[2.1rem] top-2 h-4 w-4 rounded-full border-4 border-cream bg-gold shadow-lg shadow-gold/30"></div>
-              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="XVII–XIX vek" data-text-cyrillic="XVII–XIX век">XVII–XIX vek</p>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="XVII–XIX vijek" data-text-cyrillic="XVII–XIX вијек">XVII–XIX vijek</p>
               <h3 class="mt-2 font-serif text-3xl text-navy" data-text-latin="Pismo i javno obrazovanje" data-text-cyrillic="Писмо и јавно образовање">Pismo i javno obrazovanje</h3>
-              <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Širenje pismenosti i uloga crkve, školovanja i kulturnih udruženja doprinose jačanju osjećaja zajedničkog identiteta i kulturne stabilnosti." data-text-cyrillic="Ширење писмености и улога цркве, школовања и културних удружења доприносе јачању осећаја заједничког идентитета и културне стабилности.">
+              <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Širenje pismenosti i uloga crkve, školovanja i kulturnih udruženja doprinose jačanju osjećaja zajedničkog identiteta i kulturne stabilnosti." data-text-cyrillic="Ширење писмености и улога цркве, школовања и културних удружења доприносе јачању осјећаја заједничког идентитета и културне стабилности.">
                 Širenje pismenosti i uloga crkve, školovanja i kulturnih udruženja doprinose jačanju osjećaja zajedničkog identiteta i kulturne stabilnosti.
               </p>
             </div>
 
             <div class="timeline-item relative pb-12">
               <div class="absolute -left-[2.1rem] top-2 h-4 w-4 rounded-full border-4 border-cream bg-gold shadow-lg shadow-gold/30"></div>
-              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="XX vek" data-text-cyrillic="XX век">XX vek</p>
+              <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="XX vijek" data-text-cyrillic="XX вијек">XX vijek</p>
               <h3 class="mt-2 font-serif text-3xl text-navy" data-text-latin="Kulturni spomenici" data-text-cyrillic="Културни споменици">Kulturni spomenici</h3>
               <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Značajni objekti i lokaliteti postaju simboli kolektivne memorije, a njihova zaštita i prezentacija postaju važna komponenta nacionalne i regionalne kulture." data-text-cyrillic="Значајни објекти и локалитети постају симболи колективне меморије, а њихова заштита и презентација постају важна компонента националне и регионалне културе.">
                 Značajni objekti i lokaliteti postaju simboli kolektivne memorije, a njihova zaštita i prezentacija postaju važna komponenta nacionalne i regionalne kulture.
@@ -354,7 +402,7 @@
               <div class="absolute -left-[2.1rem] top-2 h-4 w-4 rounded-full border-4 border-cream bg-gold shadow-lg shadow-gold/30"></div>
               <p class="text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="Danas" data-text-cyrillic="Данас">Danas</p>
               <h3 class="mt-2 font-serif text-3xl text-navy" data-text-latin="Baština u digitalnom dobu" data-text-cyrillic="Баштина у дигиталном добу">Baština u digitalnom dobu</h3>
-              <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Kroz digitalizaciju, edukacije i javne kampanje, kulturna memorija postaje dostupna svim generacijama i jača svijest o potrebi njenog čuvanja." data-text-cyrillic="Кроз дигитализацију, едукације и јавне кампање, културна меморија постаје доступна свим генерацијама и јача свест о потреби њеног чувања.">
+              <p class="mt-3 max-w-2xl text-base leading-7 text-slate-700" data-text-latin="Kroz digitalizaciju, edukacije i javne kampanje, kulturna memorija postaje dostupna svim generacijama i jača svijest o potrebi njenog čuvanja." data-text-cyrillic="Кроз дигитализацију, едукације и јавне кампање, културна меморија постаје доступна свим генерацијама и јача свијест о потреби њеног чувања.">
                 Kroz digitalizaciju, edukacije i javne kampanje, kulturna memorija postaje dostupna svim generacijama i jača svijest o potrebi njenog čuvanja.
               </p>
             </div>
@@ -366,11 +414,11 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-burgundy" data-text-latin="Kulturna baština" data-text-cyrillic="Културна баштина">Kulturna baština</p>
-              <h2 class="font-serif text-4xl text-navy sm:text-5xl" data-text-latin="Mesta koja pričaju" data-text-cyrillic="Места која причају">Mesta koja pričaju</h2>
+              <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-burgundy" data-text-latin="Kulturna baština" data-text-cyrillic="Културна баштина">Културна баштина</p>
+              <h2 class="font-serif text-4xl text-navy sm:text-5xl" data-text-latin="Mesta koja pričaju" data-text-cyrillic="Места која причају">Места која причају</h2>
             </div>
-            <a href="#kontakt" class="inline-flex items-center text-sm font-semibold uppercase tracking-[0.2em] text-burgundy transition hover:text-navy" data-text-latin="Pošalji upit" data-text-cyrillic="Пошаљи упит">
-              Pošalji upit
+            <a href="#kulturna-baština" class="inline-flex items-center text-sm font-semibold uppercase tracking-[0.2em] text-burgundy transition hover:text-navy" data-text-latin="Galerija" data-text-cyrillic="Галерија">
+              Галерија
             </a>
           </div>
 
@@ -468,7 +516,7 @@
             <div>
               <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-gold" data-text-latin="Kontakt" data-text-cyrillic="Контакт">Kontakt</p>
               <h2 class="font-serif text-4xl text-white sm:text-5xl" data-text-latin="Zajedno čuvamo baštinu" data-text-cyrillic="Заједно чувамо баштину">Zajedno čuvamo baštinu</h2>
-              <p class="mt-6 max-w-md text-lg leading-8 text-slate-300" data-text-latin="Ako želite da doprinesite projektu, podijelite svoju priču, fotografiju ili predlog za saradnju, javite nam se. Radujemo se komunikaciji sa lokalnom zajednicom i istraživačima." data-text-cyrillic="Ако желите да допринесете пројекту, поделите своју причу, фотографију или предлог за сарадњу, јавите нам се. Радујемо се комуникацији са локалном заједницом и истраживачима.">
+              <p class="mt-6 max-w-md text-lg leading-8 text-slate-300" data-text-latin="Ako želite da doprinesite projektu, podijelite svoju priču, fotografiju ili predlog za saradnju, javite nam se. Radujemo se komunikaciji sa lokalnom zajednicom i istraživačima." data-text-cyrillic="Ако желите да допринесете пројекту, подијелите своју причу, фотографију или предлог за сарадњу, јавите нам се. Радујемо се комуникацији са локалном заједницом и истраживачима.">
                 Ako želite da doprinesite projektu, podijelite svoju priču, fotografiju ili predlog za saradnju, javite nam se. Radujemo se komunikaciji sa lokalnom zajednicom i istraživačima.
               </p>
 
@@ -477,7 +525,7 @@
                   <div class="flex h-11 w-11 items-center justify-center rounded-full bg-white/5 text-gold">⌂</div>
                   <div>
                     <div class="font-semibold text-white" data-text-latin="Lokacija" data-text-cyrillic="Локација">Lokacija</div>
-                    <div data-text-latin="Nikšić, Crna Gora" data-text-cyrillic="Никшић, Црна Гора">Nikšić, Crna Gora</div>
+                    <div data-text-latin="Bijelo Polje, Crna Gora" data-text-cyrillic="Бијело Поље, Црна Гора">Bijelo Polje, Crna Gora</div>
                   </div>
                 </div>
                 <div class="flex items-start gap-4">
@@ -545,13 +593,13 @@
     <footer class="border-t border-slate-200 bg-cream">
       <div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div>
-          <div class="font-serif text-2xl text-navy" data-text-latin="Srpska baština" data-text-cyrillic="Српска баштина">Srpska baština</div>
-          <p class="mt-2 text-sm text-slate-600" data-text-latin="© 2026 Svi prava zadržana." data-text-cyrillic="© 2026 Сва права задржана.">© 2026 Svi prava zadržana.</p>
+          <div class="font-serif text-2xl text-navy" data-text-latin="Srpsko nasleđe Crne Gore" data-text-cyrillic="Српско наслеђе Црне Горе">Српско наслеђе Црне Горе</div>
+          <p class="mt-2 text-sm text-slate-600" data-text-latin="© 2026 Svi prava zadržana." data-text-cyrillic="© 2026 Сва права задржана.">© 2026 Сва права задржана.</p>
         </div>
 
         <div class="flex items-center gap-5 text-sm text-slate-600">
           <a href="#početna" class="transition hover:text-burgundy" data-text-latin="Početna" data-text-cyrillic="Почетна">Početna</a>
-          <a href="#kultura-pismo" class="transition hover:text-burgundy" data-text-latin="Kultura" data-text-cyrillic="Култура">Kultura</a>
+          <a href="#o-projektu" class="transition hover:text-burgundy" data-text-latin="Kultura" data-text-cyrillic="Култура">Kultura</a>
           <a href="#istorija" class="transition hover:text-burgundy" data-text-latin="Istorija" data-text-cyrillic="Историја">Istorija</a>
           <a href="#kontakt" class="transition hover:text-burgundy" data-text-latin="Kontakt" data-text-cyrillic="Контакт">Kontakt</a>
         </div>
@@ -581,43 +629,20 @@
         });
       });
 
-      const toggleButtons = document.querySelectorAll('.script-toggle');
       const translatableNodes = document.querySelectorAll('[data-text-latin]');
 
-      const applyScriptText = (script) => {
-        translatableNodes.forEach((el) => {
-          const textKey = script === 'cyr' ? 'textCyrillic' : 'textLatin';
-          const value = el.dataset[textKey];
+      translatableNodes.forEach((el) => {
+        const value = el.dataset.textCyrillic;
 
-          if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-            el.placeholder = value;
-            if (el.value) {
-              el.value = value;
-            }
-          } else {
-            el.textContent = value;
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+          el.placeholder = value;
+          if (el.value) {
+            el.value = value;
           }
-        });
-
-        toggleButtons.forEach((button) => {
-          const active = button.dataset.script === script;
-          button.classList.remove('bg-navy', 'text-white', 'bg-white', 'text-slate-600', 'text-slate-700', 'border', 'border-slate-200');
-
-          if (active) {
-            button.classList.add('bg-navy', 'text-white');
-          } else {
-            button.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
-          }
-        });
-      };
-
-      toggleButtons.forEach((button) => {
-        button.addEventListener('click', () => {
-          applyScriptText(button.dataset.script);
-        });
+        } else {
+          el.textContent = value;
+        }
       });
-
-      applyScriptText('lat');
     </script>
   </body>
 </html>
